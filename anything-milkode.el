@@ -5,7 +5,7 @@
 ;; Author: ongaeshi
 ;; Keywords: milkode, anything, search, grep, jump, keyword
 ;; Version: 0.3
-;; Package-Requires:
+;; Package-Requires: ((milkode "0.3") (anything "1.3.9"))
 
 ;; Permission is hereby granted, free of charge, to any person obtaining
 ;; a copy of this software and associated documentation files (the
