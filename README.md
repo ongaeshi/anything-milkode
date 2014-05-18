@@ -4,7 +4,7 @@ anything-milkode
 Overview
 ------------
 
-Support [Milkode](http://milkode.ongaeshi.me) search for Emacs.
+Support [Milkode](https://github.com/ongaeshi/milkode) search for Emacs.
 
 **anything-milkode.el** use `anything`.
 Need [emacs-milkode](https://github.com/ongaeshi/emacs-milkode).
