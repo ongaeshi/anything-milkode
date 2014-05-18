@@ -1,14 +1,13 @@
-emacs-milkode
+anything-milkode
 =================
 
 Overview
 ------------
 
-Support [Milkode](http://milkode.ongaeshi.me/wiki/Main_Page) search for Emacs.
+Support [Milkode](http://milkode.ongaeshi.me) search for Emacs.
 
-**milkode.el** use `M-x grep`.
-
-**anything-milkode.el** use `anything`. (Contain milkode.el)
+**anything-milkode.el** use `anything`.
+Need [emacs-milkode](https://github.com/ongaeshi/emacs-milkode).
 
 Screenshots
 ------------
@@ -17,22 +16,6 @@ Screenshots
 
 Install
 ------------
-
-### milkode
-
-If you use `auto-install`.
-
-```emacs-lisp:install.el
-(auto-install-from-url "https://raw.github.com/ongaeshi/emacs-milkode/master/milkode.el")
-```
-
-Setting.
-
-```emacs-lisp:~/.emacs.d/init.el
-(require 'milkode)
-;; Shortcut setting (Your favorite things)
-(global-set-key (kbd "M-g") 'milkode:search)
-```
 
 ### anything-milkode
 
@@ -63,19 +46,8 @@ With anything-grep.el & milkode.el.
 Feature
 ------------
 
-### milkode
-
-Command                              | Description
------------------------------------- | -------------------------------------
-M-x milkode:search                   | Milkode search using `M-x grep`
-M-x milkode:search-from-all-packages | Milkode search all registered packages using `M-x grep`
-M-x milkode:display-history          | Dispaly search history
-M-x milkode:add                      | Execute `milk add`
-M-x milkode:update                   | Execute `milk update`
-
 ### anything-milkode
-
-Can use all `milkode.el` features.
+Can use all [emacs-milkode features](https://github.com/ongaeshi/emacs-milkode#feature).
 
 Command                        | Description
 ------------------------------ | -------------------------------------
@@ -87,7 +59,7 @@ With C-u                       | Clear cache.
 ### Direct jump
 
 1. When you search for direct pass `/path/to/dir:15` jump directly to the specified row.
-1. Move the cursor to direct pass on a text file, `milkode:search` or `anytying-milkode` can jump
+1. Move the cursor to direct pass on a text file, `anything-milkode` can jump
 
 Displayed direct pass to click the line number in the 'milk web' (ex. http://kodeworld.ongaeshi.me/)
 
